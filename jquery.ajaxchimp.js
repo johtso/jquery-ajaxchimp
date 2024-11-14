@@ -56,7 +56,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                 'language': 'en'
             }, options);
 
-            var url = settings.url.replace('/post?', '/post-json?').concat('&c=?');
+            var url = settings.url.concat('&c=?');
 
             form.attr('novalidate', 'true');
             email.attr('name', 'EMAIL');
